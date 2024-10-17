@@ -1,15 +1,15 @@
 {
     "name": "spa-architecture-vanilla-demo",
     "version": "1.0.0",
-    "description": "Demo to show how SPA architecture works",
+    "description": "POC to show how SPA architecture works",
     "main": "index.html",
     "type": "module",
     "scripts": {
-      "dev": "npx live-server src/"
+        "dev": "vite"
     },
     "author": "vanand46",
     "license": "",
-    "devDependencies": {
-      "live-server": "1.2.1"
+    "dependencies": {
+        "vite": "^5.4.9"
     }
-  }
+}
